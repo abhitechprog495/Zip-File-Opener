@@ -21,6 +21,7 @@ frame = Frame(root).pack()
 root.title("Zip File Opener")
 root.iconbitmap('zipicon.ico')
 root.geometry('400x200')
+root.resizable(0,0)
 button=Button(text="Select Zip File", command=OpenFile).pack()
 
 #Control the window
