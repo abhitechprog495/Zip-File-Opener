@@ -19,6 +19,7 @@ def OpenFile():
 root = Tk()
 frame = Frame(root).pack()
 root.title("Zip File Opener")
+root.iconbitmap('zipicon.ico')
 root.geometry('400x200')
 button=Button(text="Select Zip File", command=OpenFile).pack()
 
